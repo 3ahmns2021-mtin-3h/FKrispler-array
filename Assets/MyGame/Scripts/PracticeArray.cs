@@ -19,6 +19,18 @@ public class PracticeArray : MonoBehaviour
 
         arrayColoredImagesRed
         = GameObject.FindGameObjectsWithTag("RedImage");
+
+        Debug.Log("Element 0 von array 1 hat den Wert: " + array1[0]);
+        Debug.Log("Element 0 von array 2 hat den Wert: " + array2[0]);
+        Debug.Log("Element 0 von array 3 hat den Wert: " + array3[0]);
+        Debug.Log("Element 0 von array 4 hat den Wert: " + array4[0]);
+        Debug.Log("Name des ersten GameObjects: " + arrayColoredImagesRed);
+
+        Debug.Log("Das Letzte Element von array 1 hat den Wert: " + array1[array1.Length - 1]);
+        Debug.Log("Das Letzte Element von 2 hat den Wert: " + array2[array2.Length - 1]);
+        Debug.Log("Das Letzte Element von 3 hat den Wert: " + array3[array3.Length - 1]);
+        Debug.Log("Das Letzte Element von 4 hat den Wert: " + array4[array4.Length - 1]);
+        Debug.Log("Name des ersten GameObjects: " + arrayColoredImagesRed[arrayColoredImagesRed.Length - 1].name);
     }
 
     // Update is called once per frame
