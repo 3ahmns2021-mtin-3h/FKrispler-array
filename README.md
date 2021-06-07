@@ -10,7 +10,9 @@ Windows 10, Unity 2020f15.1, Visual Studio 2019
 WebGL
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+<div>
+<img src="./Screenshots/screen1.JPG" width="250">
+</div>
 
 ### Necessary setup/execution steps: 
 Installation process, e.g. step by step instructions that I can run the project after cloning it
